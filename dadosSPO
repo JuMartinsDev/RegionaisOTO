@@ -1,0 +1,102 @@
+Municipio ;Cidade_UF;Microrregiao;Código microrregiao;Codigo Municipio 1;Mesorregiao;Regional_Siemens
+Itanhaem_SP;Itanhaem_SP;Itanhaém;35056;3522109;Litoral Sul Paulista;SÃO PAULO
+Pariquera-Acu_SP;Pariquera-Acu_SP;Registro;35055;3536208;Litoral Sul Paulista;SÃO PAULO
+Peruibe_SP;Peruibe_SP;Itanhaém;35056;3537602;Litoral Sul Paulista;SÃO PAULO
+Registro_SP;Registro_SP;Registro;35055;3542602;Litoral Sul Paulista;SÃO PAULO
+Barra do Turvo_SP;Barra do Turvo_SP;Registro;35055;3505401;Litoral Sul Paulista;SÃO PAULO
+Cajati_SP;Cajati_SP;Registro;35055;3509254;Litoral Sul Paulista;SÃO PAULO
+Cananeia_SP;Cananeia_SP;Registro;35055;3509908;Litoral Sul Paulista;SÃO PAULO
+Eldorado_SP;Eldorado_SP;Registro;35055;3514809;Litoral Sul Paulista;SÃO PAULO
+Iguape_SP;Iguape_SP;Registro;35055;3520301;Litoral Sul Paulista;SÃO PAULO
+Ilha Comprida_SP;Ilha Comprida_SP;Registro;35055;3520426;Litoral Sul Paulista;SÃO PAULO
+Itariri_SP;Itariri_SP;Itanhaém;35056;3523305;Litoral Sul Paulista;SÃO PAULO
+Jacupiranga_SP;Jacupiranga_SP;Registro;35055;3524600;Litoral Sul Paulista;SÃO PAULO
+Juquia_SP;Juquia_SP;Registro;35055;3526100;Litoral Sul Paulista;SÃO PAULO
+Miracatu_SP;Miracatu_SP;Registro;35055;3529906;Litoral Sul Paulista;SÃO PAULO
+Mongagua_SP;Mongagua_SP;Itanhaém;35056;3531100;Litoral Sul Paulista;SÃO PAULO
+Pedro de Toledo_SP;Pedro de Toledo_SP;Itanhaém;35056;3537206;Litoral Sul Paulista;SÃO PAULO
+Sete Barras_SP;Sete Barras_SP;Registro;35055;3551801;Litoral Sul Paulista;SÃO PAULO
+Aruja_SP;Aruja_SP;Guarulhos;35059;3503901;Metropolitana de São Paulo;SÃO PAULO
+Bertioga_SP;Bertioga_SP;Santos;35063;3506359;Metropolitana de São Paulo;SÃO PAULO
+Caieiras_SP;Caieiras_SP;Franco da Rocha;35058;3509007;Metropolitana de São Paulo;SÃO PAULO
+Cajamar_SP;Cajamar_SP;Osasco;35057;3509205;Metropolitana de São Paulo;SÃO PAULO
+Carapicuiba_SP;Carapicuiba_SP;Osasco;35057;3510609;Metropolitana de São Paulo;SÃO PAULO
+Cotia_SP;Cotia_SP;Itapecerica da Serra;35060;3513009;Metropolitana de São Paulo;SÃO PAULO
+Cubatao_SP;Cubatao_SP;Santos;35063;3513504;Metropolitana de São Paulo;SÃO PAULO
+Franco da Rocha_SP;Franco da Rocha_SP;Franco da Rocha;35058;3516408;Metropolitana de São Paulo;SÃO PAULO
+Guaruja_SP;Guaruja_SP;Santos;35063;3518701;Metropolitana de São Paulo;SÃO PAULO
+Itapecerica da Serra_SP;Itapecerica da Serra_SP;Itapecerica da Serra;35060;3522208;Metropolitana de São Paulo;SÃO PAULO
+Itapevi_SP;Itapevi_SP;Osasco;35057;3522505;Metropolitana de São Paulo;SÃO PAULO
+Itaquaquecetuba_SP;Itaquaquecetuba_SP;Mogi das Cruzes;35062;3523107;Metropolitana de São Paulo;SÃO PAULO
+Praia Grande_SP;Praia Grande_SP;Santos;35063;3541000;Metropolitana de São Paulo;SÃO PAULO
+Ribeirao Pires_SP;Ribeirao Pires_SP;São Paulo;35061;3543303;Metropolitana de São Paulo;SÃO PAULO
+Santa Isabel_SP;Santa Isabel_SP;Guarulhos;35059;3546801;Metropolitana de São Paulo;SÃO PAULO
+Santana de Parnaiba_SP;Santana de Parnaiba_SP;Osasco;35057;3547304;Metropolitana de São Paulo;SÃO PAULO
+Sao Vicente_SP;Sao Vicente_SP;Santos;35063;3551009;Metropolitana de São Paulo;SÃO PAULO
+Suzano_SP;Suzano_SP;Mogi das Cruzes;35062;3552502;Metropolitana de São Paulo;SÃO PAULO
+Taboao da Serra_SP;Taboao da Serra_SP;Itapecerica da Serra;35060;3552809;Metropolitana de São Paulo;SÃO PAULO
+Biritiba-Mirim_SP;Biritiba-Mirim_SP;Mogi das Cruzes;35062;3506607;Metropolitana de São Paulo;SÃO PAULO
+Embu das Artes_SP;Embu das Artes_SP;Itapecerica da Serra;35060;3515004;Metropolitana de São Paulo;SÃO PAULO
+Embu-Guacu_SP;Embu-Guacu_SP;Itapecerica da Serra;35060;3515103;Metropolitana de São Paulo;SÃO PAULO
+Guararema_SP;Guararema_SP;Mogi das Cruzes;35062;3518305;Metropolitana de São Paulo;SÃO PAULO
+Jandira_SP;Jandira_SP;Osasco;35057;3525003;Metropolitana de São Paulo;SÃO PAULO
+Juquitiba_SP;Juquitiba_SP;Itapecerica da Serra;35060;3526209;Metropolitana de São Paulo;SÃO PAULO
+Mairipora_SP;Mairipora_SP;Franco da Rocha;35058;3528502;Metropolitana de São Paulo;SÃO PAULO
+Pirapora do Bom Jesus_SP;Pirapora do Bom Jesus_SP;Osasco;35057;3539103;Metropolitana de São Paulo;SÃO PAULO
+Poa_SP;Poa_SP;Mogi das Cruzes;35062;3539806;Metropolitana de São Paulo;SÃO PAULO
+Rio Grande da Serra_SP;Rio Grande da Serra_SP;São Paulo;35061;3544103;Metropolitana de São Paulo;SÃO PAULO
+Salesopolis_SP;Salesopolis_SP;Mogi das Cruzes;35062;3545001;Metropolitana de São Paulo;SÃO PAULO
+Sao Lourenco da Serra_SP;Sao Lourenco da Serra_SP;Itapecerica da Serra;35060;3549953;Metropolitana de São Paulo;SÃO PAULO
+Vargem Grande Paulista_SP;Vargem Grande Paulista_SP;Itapecerica da Serra;35060;3556453;Metropolitana de São Paulo;SÃO PAULO
+Sao Bernardo do Campo_SP;Sao Bernardo do Campo_SP;São Paulo;35061;3548708;Metropolitana de São Paulo;SÃO PAULO
+Diadema_SP;Diadema_SP;São Paulo;35061;3513801;Metropolitana de São Paulo;SÃO PAULO
+Maua_SP;Maua_SP;São Paulo;35061;3529401;Metropolitana de São Paulo;SÃO PAULO
+Sao Caetano do Sul_SP;Sao Caetano do Sul_SP;São Paulo;35061;3548807;Metropolitana de São Paulo;SÃO PAULO
+Osasco_SP;Osasco_SP;Osasco;35057;3534401;Metropolitana de São Paulo;SÃO PAULO
+Guarulhos_SP;Guarulhos_SP;Guarulhos;35059;3518800;Metropolitana de São Paulo;SÃO PAULO
+Santo Andre_SP;Santo Andre_SP;São Paulo;35061;3547809;Metropolitana de São Paulo;SÃO PAULO
+Sao Paulo_SP;Sao Paulo_SP;São Paulo;35061;3550308;Metropolitana de São Paulo;SÃO PAULO
+Santos_SP;Santos_SP;Santos;35063;3548500;Metropolitana de São Paulo;SÃO PAULO
+Ferraz de Vasconcelos_SP;Ferraz de Vasconcelos_SP;Mogi das Cruzes;35062;3515707;Metropolitana de São Paulo;SÃO PAULO
+Mogi das Cruzes_SP;Mogi das Cruzes_SP;Mogi das Cruzes;35062;3530607;Metropolitana de São Paulo;SÃO PAULO
+Barueri_SP;Barueri_SP;Osasco;35057;3505708;Metropolitana de São Paulo;SÃO PAULO
+Francisco Morato_SP;Francisco Morato_SP;Franco da Rocha;35058;3516309;Metropolitana de São Paulo;SÃO PAULO
+Campos do Jordao_SP;Campos do Jordao_SP;Campos do Jordão;35049;3509700;Vale do Paraíba Paulista;SÃO PAULO
+Caraguatatuba_SP;Caraguatatuba_SP;Caraguatatuba;35054;3510500;Vale do Paraíba Paulista;SÃO PAULO
+Jacarei_SP;Jacarei_SP;São José dos Campos;35050;3524402;Vale do Paraíba Paulista;SÃO PAULO
+Lorena_SP;Lorena_SP;Guaratinguetá;35051;3527207;Vale do Paraíba Paulista;SÃO PAULO
+Pindamonhangaba_SP;Pindamonhangaba_SP;São José dos Campos;35050;3538006;Vale do Paraíba Paulista;SÃO PAULO
+Sao Sebastiao_SP;Sao Sebastiao_SP;Caraguatatuba;35054;3550704;Vale do Paraíba Paulista;SÃO PAULO
+Ubatuba_SP;Ubatuba_SP;Caraguatatuba;35054;3555406;Vale do Paraíba Paulista;SÃO PAULO
+Aparecida_SP;Aparecida_SP;Guaratinguetá;35051;3502507;Vale do Paraíba Paulista;SÃO PAULO
+Arapei_SP;Arapei_SP;Bananal;35052;3503158;Vale do Paraíba Paulista;SÃO PAULO
+Areias_SP;Areias_SP;Bananal;35052;3503505;Vale do Paraíba Paulista;SÃO PAULO
+Bananal_SP;Bananal_SP;Bananal;35052;3504909;Vale do Paraíba Paulista;SÃO PAULO
+Cachoeira Paulista_SP;Cachoeira Paulista_SP;Guaratinguetá;35051;3508603;Vale do Paraíba Paulista;SÃO PAULO
+Canas_SP;Canas_SP;Guaratinguetá;35051;3509957;Vale do Paraíba Paulista;SÃO PAULO
+Cunha_SP;Cunha_SP;Paraibuna/Paraitinga;35053;3513603;Vale do Paraíba Paulista;SÃO PAULO
+Igarata_SP;Igarata_SP;São José dos Campos;35050;3520202;Vale do Paraíba Paulista;SÃO PAULO
+Ilhabela_SP;Ilhabela_SP;Caraguatatuba;35054;3520400;Vale do Paraíba Paulista;SÃO PAULO
+Jambeiro_SP;Jambeiro_SP;Paraibuna/Paraitinga;35053;3524907;Vale do Paraíba Paulista;SÃO PAULO
+Lagoinha_SP;Lagoinha_SP;Paraibuna/Paraitinga;35053;3526308;Vale do Paraíba Paulista;SÃO PAULO
+Lavrinhas_SP;Lavrinhas_SP;Guaratinguetá;35051;3526605;Vale do Paraíba Paulista;SÃO PAULO
+Monteiro Lobato_SP;Monteiro Lobato_SP;Campos do Jordão;35049;3531704;Vale do Paraíba Paulista;SÃO PAULO
+Natividade da Serra_SP;Natividade da Serra_SP;Paraibuna/Paraitinga;35053;3532306;Vale do Paraíba Paulista;SÃO PAULO
+Paraibuna_SP;Paraibuna_SP;Paraibuna/Paraitinga;35053;3535606;Vale do Paraíba Paulista;SÃO PAULO
+Piquete_SP;Piquete_SP;Guaratinguetá;35051;3538501;Vale do Paraíba Paulista;SÃO PAULO
+Potim_SP;Potim_SP;Guaratinguetá;35051;3540754;Vale do Paraíba Paulista;SÃO PAULO
+Queluz_SP;Queluz_SP;Guaratinguetá;35051;3541901;Vale do Paraíba Paulista;SÃO PAULO
+Redencao da Serra_SP;Redencao da Serra_SP;Paraibuna/Paraitinga;35053;3542305;Vale do Paraíba Paulista;SÃO PAULO
+Roseira_SP;Roseira_SP;Guaratinguetá;35051;3544301;Vale do Paraíba Paulista;SÃO PAULO
+Santa Branca_SP;Santa Branca_SP;São José dos Campos;35050;3546009;Vale do Paraíba Paulista;SÃO PAULO
+Santo Antonio do Pinhal_SP;Santo Antonio do Pinhal_SP;Campos do Jordão;35049;3548203;Vale do Paraíba Paulista;SÃO PAULO
+Sao Bento do Sapucai_SP;Sao Bento do Sapucai_SP;Campos do Jordão;35049;3548609;Vale do Paraíba Paulista;SÃO PAULO
+Sao Jose do Barreiro_SP;Sao Jose do Barreiro_SP;Bananal;35052;3549607;Vale do Paraíba Paulista;SÃO PAULO
+Sao Luis do Paraitinga_SP;Sao Luis do Paraitinga_SP;Paraibuna/Paraitinga;35053;3550001;Vale do Paraíba Paulista;SÃO PAULO
+Silveiras_SP;Silveiras_SP;Bananal;35052;3552007;Vale do Paraíba Paulista;SÃO PAULO
+Tremembe_SP;Tremembe_SP;São José dos Campos;35050;3554805;Vale do Paraíba Paulista;SÃO PAULO
+Guaratingueta_SP;Guaratingueta_SP;Guaratinguetá;35051;3518404;Vale do Paraíba Paulista;SÃO PAULO
+Sao Jose dos Campos_SP;Sao Jose dos Campos_SP;São José dos Campos;35050;3549904;Vale do Paraíba Paulista;SÃO PAULO
+Taubate_SP;Taubate_SP;São José dos Campos;35050;3554102;Vale do Paraíba Paulista;SÃO PAULO
+Cacapava_SP;Cacapava_SP;São José dos Campos;35050;3508504;Vale do Paraíba Paulista;SÃO PAULO
+Cruzeiro_SP;Cruzeiro_SP;Guaratinguetá;35051;3513405;Vale do Paraíba Paulista;SÃO PAULO
