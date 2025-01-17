@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPO - Regional</title>
+    <style>
+        /* Remover a barra de rolagem global */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Impede que a rolagem seja ativada */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    overflow-y: auto; /* Permite rolar apenas se necessário */
+}
+
+header {
+    background-color: #019999;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: #019999;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #017f7f;
+}
+
+main {
+    padding: 20px;
+    max-height: calc(100vh - 120px); /* Ajusta para o espaço disponível */
+    overflow-y: auto; /* Permite rolar se o conteúdo exceder a altura */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto; /* Centraliza os cards horizontalmente */
+    width: 80%;
+    max-width: 700px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o texto dentro do card */
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+button {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #019999;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #017f7f;
+}
+
+/* Tabela de Licitações */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #019999;
+    text-align: center;
+}
+
+table th {
+    background-color: #019999;
+    color: #019999;
+}
+
+table td button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #f39c12;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+table td button:hover {
+    background-color: #e67e22;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+/* Estilos para a div que contém a tabela */
+#licitacoes-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para os cabeçalhos */
+#licitacoes-table th {
+    padding: 12px;
+    background-color: #f2f2f2;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Estilo para as células */
+#licitacoes-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+/* Estilo para linhas alternadas (semelhante ao Excel) */
+#licitacoes-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para a linha selecionada */
+#licitacoes-table tr:hover {
+    background-color: #e6f7ff;
+}
+
+/* Estilo para as bordas horizontais */
+#licitacoes-table td, #licitacoes-table th {
+    border-top: 1px solid #ddd;
+}
+
+/* Cor para a primeira linha */
+#licitacoes-table tr:first-child th {
+    border-top: none;
+}
+
+/* Ajustes extras */
+#licitacoes-table-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+/* Estilo para o campo de busca */
+#search-input {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 20px; /* Centraliza horizontalmente */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para o botão de voltar fixado no canto inferior direito */
+.btn-voltar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #019999;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+}
+
+.btn-voltar:hover {
+    background-color: #017f7f;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SPI - Regional</h1>
+        <nav>
+            <ul>
+                <li><a href="#regionais">Regionais por Município</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="regionais">
+            <div class="card">
+                <h2>Regionais</h2>
+                <p>Confira a qual regional cada município, micro/mesorregião e estado pertence!</p>
+                <!-- Campo de busca -->
+                <input type="text" id="search-input" placeholder="Pesquisar na tabela..." onkeyup="filterTable()">
+            </div>
+            <!-- Contêiner para a tabela -->
+            <div id="licitacoes-table-container">
+                <!-- A tabela gerada será inserida aqui -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Botão de Voltar -->
+    <button onclick="window.location.href='index.html'" class="btn-voltar">Voltar à Página Inicial</button>
+
+    <footer>
+        <p>© 2025 Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Função para carregar o CSV e gerar a tabela
+        function carregarCSV() {
+            fetch('COLOCAR.csv')  // Caminho para o arquivo CSV
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Erro ao carregar o CSV.');
+                    }
+                    return response.text();  // Retorna o conteúdo do CSV como texto
+                })
+                .then(csvConteudo => {
+                    const dados = csvParaArray(csvConteudo);  // Converte CSV para array
+                    gerarTabela(dados);  // Gera a tabela com os dados
+                })
+                .catch(error => {
+                    console.error('Erro ao carregar o arquivo CSV:', error);
+                });
+        }
+
+        // Função para converter CSV para array (usando ; como delimitador)
+        function csvParaArray(csv) {
+            const linhas = csv.split('\n');  // Divide o CSV em linhas
+            return linhas.map(linha => linha.split(';'));  // Divide cada linha usando o delimitador ;
+        }
+
+        // Função para gerar a tabela HTML
+        function gerarTabela(dados) {
+            const tabelaContainer = document.getElementById('licitacoes-table-container');
+            tabelaContainer.innerHTML = '';  // Limpar qualquer conteúdo anterior
+
+            const tabela = document.createElement('table');
+            tabela.id = 'licitacoes-table';
+
+            // Criando o cabeçalho da tabela
+            const cabecalho = dados[0];  // A primeira linha do CSV são os cabeçalhos
+            const thead = document.createElement('thead');
+            const trCabecalho = document.createElement('tr');
+            cabecalho.forEach(coluna => {
+                const th = document.createElement('th');
+                th.innerText = coluna;
+                trCabecalho.appendChild(th);
+            });
+            thead.appendChild(trCabecalho);
+            tabela.appendChild(thead);
+
+            // Criando o corpo da tabela
+            const tbody = document.createElement('tbody');
+            for (let i = 1; i < dados.length; i++) {
+                const tr = document.createElement('tr');
+                dados[i].forEach(celula => {
+                    const td = document.createElement('td');
+                    td.innerText = celula;
+                    tr.appendChild(td);
+                });
+                tbody.appendChild(tr);
+            }
+            tabela.appendChild(tbody);
+
+            // Adicionando a tabela ao container
+            tabelaContainer.appendChild(tabela);
+        }
+
+        // Função para filtrar a tabela conforme a busca
+        function filterTable() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("search-input");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("licitacoes-table");
+            tr = table.getElementsByTagName("tr");
+
+            for (i = 1; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td");
+                let match = false;
+                for (let j = 0; j < td.length; j++) {
+                    if (td[j]) {
+                        txtValue = td[j].textContent || td[j].innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            match = true;
+                            break;
+                        }
+                    }
+                }
+                tr[i].style.display = match ? "" : "none";
+            }
+        }
+
+        // Chama a função para carregar o CSV quando a página carregar
+        window.onload = carregarCSV;
+    </script>
+</body>
+</html>
