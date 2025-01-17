@@ -1,0 +1,160 @@
+/* Reset básico de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: linear-gradient(to right, #019999, #eb6602); /* Degradê entre as duas cores */
+    color: #fffffe;
+    display: flex; /* Flexbox para alinhar os elementos lado a lado */
+    justify-content: space-between; /* Espaça os elementos */
+    align-items: center; /* Alinha verticalmente os itens */
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    display: flex; /* Para exibir os links lado a lado */
+    list-style-type: none; /* Remove os marcadores da lista */
+}
+
+header nav ul li {
+    margin-left: 20px; /* Espaçamento entre os links */
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #2ecc71; /* Cor de destaque ao passar o mouse */
+}
+
+/* Estilo dos cards */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.card {
+    background-color: #a6dada; /* Cor de fundo dos cards */
+    border: 1px solid #019999;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    margin: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    color: #fff; /* Título em branco */
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    color: #7f8c8d;
+}
+
+/* Estilo do rodapé */
+footer {
+    background: linear-gradient(to right, #019999, #2c3e50); /* Degradê entre as duas cores */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Garantir que o rodapé sempre esteja no final */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+button {
+    background-color: #019999;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px; /* Adicionando espaçamento entre os botões */
+}
+
+button:hover {
+    background-color: #68bd8b;
+}
+
+/* Estilo do botão de voltar */
+/* Estilo para o botão de voltar fixado no canto inferior direito */
+.btn-voltar {
+    position: fixed;
+    bottom: 30px;  /* Aumentei um pouco a distância da borda inferior */
+    right: 30px;  /* Aumentei um pouco a distância da borda direita */
+    padding: 12px 24px;  /* Tamanho um pouco maior para o botão */
+    background-color: #019999;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+    transition: background-color 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: #017f7f;
+}
+
+/* Estilo para os botões na tabela (dentro das células) */
+table td button {
+    margin: 5px;  /* Aumentei o espaço entre os botões */
+    padding: 6px 12px;  /* Ajustei o tamanho dos botões */
+    background-color: #f39c12;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+table td button:hover {
+    background-color: #e67e22;
+}
